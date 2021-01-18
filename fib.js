@@ -3,9 +3,9 @@ function fib(n) {
     var a = 0
     var b = 1
     for (let i = 1; i <= n; i++) {
-        var tot = a+b
+        var total = a+b
         b = a
-        a = tot
+        a = total
     }
     return a
 }
